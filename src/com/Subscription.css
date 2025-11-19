@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    
+    ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subscription-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .subscription-card {
+    background: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscription-card h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .status-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .plan-details {
+    margin: 20px 0;
+  }
+  
+  .plan-details h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .plan-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plan-details ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Button Styling */
+  .subscription-buttons .btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .subscription-buttons .btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  .subscription-buttons .btn:active {
+    transform: translateY(1px);
+  }
+  
+ 
+  
+  /* Animation for Card */
+  .subscription-card {
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  

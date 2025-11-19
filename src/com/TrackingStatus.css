@@ -1,0 +1,73 @@
+/* TrackingStatus.css */
+
+.tracking-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.tracking-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.tracking-timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 2px solid #ccc;
+}
+
+.tracking-step {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.tracking-step:last-child {
+    margin-bottom: 0;
+}
+
+.tracking-icon {
+    position: absolute;
+    left: -20px;
+    top: 4px;
+    background: white;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.tracking-details {
+    margin-left: 20px;
+}
+
+.tracking-status {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tracking-message {
+    font-size: 15px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.tracking-date {
+    font-size: 13px;
+    color: #999;
+}
+
+.tracking-empty {
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    margin-top: 20px;
+}
